@@ -40,6 +40,12 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .service-card{
+            height: 270px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -88,92 +94,102 @@
     Mobile Menu
   ============================== -->
   <div class="th-menu-wrapper">
-    <div class="th-menu-area text-center">
-        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-        <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/image-removebg-preview (2).png" alt="Rakar"></a>
+        <div class="th-menu-area text-center">
+            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/image-removebg-preview (2).png" alt="Rakar"></a>
+            </div>
+            <div class="th-mobile-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="menu-item-has-children">
+                    <a href="service.html">Our Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="offshore_services.html">Offshore/Subsea EPC Services</a></li>
+                            <li><a href="steel_repairs.html">Steel Repairs & Fabrication</a></li>
+                            <li><a href="mechanical_services.html">Mechanical Services</a></li>
+                            <li><a href="piping_services.html">Piping Services</a></li>
+                            <li><a href="hydraulic_services.html">Hydraulic & Crane Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="th-mobile-menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li class="menu-item-has-children">
-                    <a href="#">Our Services</a>
-                    <ul class="sub-menu">
-                        <li><a href="service.html">Our Services</a></li>
-                        <li><a href="service-details.html">Service Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="project.html">Project</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div><!--==============================
+    </div><!--==============================
 Header Area
 ==============================-->
-<header class="th-header header-layout1 ">
-    <div class="header-top">
-        <div class="container">
-            <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                <div class="col-auto d-none d-lg-block">
-                    <div class="header-links">
-                        <ul>
-                            <li><i class="fas fa-location-dot"></i>No 1 Soon Lee Street, #04-56 Pioneer Centre, Singapore 627605.</li>
-                            <li><i class="fas fa-building"></i>No 7 Tuas South Street 15, Singapore 637078.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="header-links">
-                        <ul>
-                            <li><i class="fas fa-clock"></i> 00:00 – 23:59, Monday to Sunday</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="sticky-wrapper">
-        <!-- Main Menu Area -->
-        <div class="container">
-            <div class="menu-area">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-auto">
-                        <div class="header-logo">
-                            <a href="index.html"><img src="assets/img/SENG_HENG_GROUP_copy-removebg-preview.png" alt="Rakar"></a>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <nav class="main-menu d-none d-lg-inline-block">
+    <header class="th-header header-layout1 ">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="header-links">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Our Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="service.html">Our Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="project.html">Project</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><i class="fas fa-location-dot"></i>No 1 Soon Lee Street, #04-56 Pioneer Centre,
+                                    Singapore 627605.</li>
+                                <li><i class="fas fa-building"></i>No 7 Tuas South Street 15, Singapore 637078.</li>
                             </ul>
-                        </nav>
-                        <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                        </div>
                     </div>
-                    <div class="col-auto d-none d-xl-block">
-                        <div class="header-button">
-                            <a href="contact.html" class="th-btn rounded-12 style3">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                    <div class="col-auto">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="fas fa-clock"></i> 00:00 – 23:59, Monday to Sunday</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="container">
+                <div class="menu-area">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="assets/img/SENG_HENG_GROUP_copy-removebg-preview.png"
+                                        alt="Rakar"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu d-none d-lg-inline-block">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="service.html">Our Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="offshore_services.html">Offshore/Subsea EPC Services</a></li>
+                                            <li><a href="steel_repairs.html">Steel Repairs & Fabrication</a></li>
+                                            <li><a href="mechanical_services.html">Mechanical Services</a></li>
+                                            <li><a href="piping_services.html">Piping Services</a></li>
+                                            <li><a href="hydraulic_services.html">Hydraulic & Crane Services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                            <button type="button" class="th-menu-toggle d-block d-lg-none"><i
+                                    class="far fa-bars"></i></button>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="header-button">
+                                <a href="contact.html" class="th-btn rounded-12 style3">Get A Quote<i
+                                        class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 <!--==============================
     Breadcumb
 ============================== -->
@@ -843,12 +859,11 @@ Brand Area
                             <h3 class="widget_title"><img src="assets/img/icon/footer_title5.svg" alt="icon"> Our Services</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="service-details.html">Refrigerator</a></li>
-                                    <li><a href="service-details.html">Microwave</a></li>
-                                    <li><a href="service-details.html">Cookware Stove</a></li>
-                                    <li><a href="service-details.html">Washing Machine</a></li>
-                                    <li><a href="service-details.html">Juicer Mixer</a></li>
-                                    <li><a href="service-details.html">Generator Install</a></li>
+                                    <li><a href="offshore_services.html">Offshore/Subsea EPC Services</a></li>
+                                    <li><a href="steel_repairs.html">Steel Repairs & Fabrication</a></li>
+                                    <li><a href="mechanical_services.html">Mechanical Services</a></li>
+                                    <li><a href="piping_services.html">Piping Services</a></li>
+                                    <li><a href="hydraulic_services.html">Hydraulic & Crane Services</a></li>
                                 </ul>
                             </div>
                         </div>
