@@ -20427,3 +20427,17 @@ img.red-tint {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+
+@media (max-width: 375px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
