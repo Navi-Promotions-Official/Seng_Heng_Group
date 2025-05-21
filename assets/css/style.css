@@ -20428,16 +20428,55 @@ img.red-tint {
     transform: rotateY(180deg);
 }
 
-@media (max-width: 375px) {
+@media (width: 375px) {
     .service-card {
         height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
         padding: 20px;
     }
 }
 
-@media (max-width: 414px) {
+@media (width: 414px) {
     .service-card {
         height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
         padding: 20px;
     }
+}
+
+@media (width: 768px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+@media (width: 820px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+@media (width: 912px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+@media (width: 1280px) {
+    .service-card {
+        height: auto; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+@media (width: 344px) {
+    .service-card {
+        height: auto !important; /* or a smaller fixed value like 320px if you still want it fixed */
+        padding: 20px;
+    }
+}
+
+.page-content{
+  text-align: justify;
 }
